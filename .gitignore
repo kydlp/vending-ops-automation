@@ -1,0 +1,27 @@
+# 実値を含む設定（絶対にコミットしない）
+config.local.json
+*.local.json
+
+# 生成物・作業ファイル
+workbook/
+invoices/
+logs/
+*.xlsx
+*.pdf
+sales_*.tsv
+vms_year*.tsv
+
+# ビルド成果物
+bin/
+obj/
+lib/
+*.exe
+*.dll
+
+__pycache__/
+*.pyc
+
+# サンプルは公開する
+!sample-data/
+!sample-data/*.tsv
+!sample-data/*.csv
